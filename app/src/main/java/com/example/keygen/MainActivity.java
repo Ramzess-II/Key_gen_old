@@ -32,7 +32,7 @@ public class MainActivity extends AppCompatActivity {
         auto_manual = findViewById(R.id.checkBox2);
         inpt_text = findViewById(R.id.text_inpt);
         out_text = findViewById(R.id.textView);
-        inpt_text.setOnEditorActionListener(new TextView.OnEditorActionListener() {  // слушатель клавиатуры
+        inpt_text.setOnEditorActionListener(new TextView.OnEditorActionListener() {  // слушатель клавиатуры для ввода
             @Override
             public boolean onEditorAction(TextView v, int i, KeyEvent event) {
                 if (i == EditorInfo.IME_ACTION_DONE) {
